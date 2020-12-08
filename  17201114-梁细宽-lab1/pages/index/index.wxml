@@ -1,0 +1,37 @@
+<view class='box'>
+<!-- 头顶分数 -->
+<view class="display-box">
+  <view class='display-box-1'>
+    <text class='count'style="font-size:{{fontSize}}rpx">{{count}}</text>
+  </view>
+</view>
+<view class='btns'>
+<view class='btn-group left-one' catchtap="pressView">
+<view class='btn red' bindtap='tap' data-value='AC'>AC</view>
+<view class='btn' bindtap='tap' data-value='7'>{{id7}}</view>
+<view class='btn' bindtap='tap' data-value='4'>{{id4}}</view>
+<view class='btn' bindtap='tap' data-value='l'>{{id1}}</view>
+<view class='btn' bindtap='tap' data-value='%'>{{idh}}</view>
+ </view>
+<view class='btn-group' catchtap="pressView">
+<view class='btn' bindtap='tap' data-value='DEL'>DEL</view>
+<view class='btn' bindtap='tap' data-value='8'>{{id8}}</view>
+<view class='btn' bindtap='tap' data-value='5'>{{id5}}</view>
+<view class='btn' bindtap='tap' data-value='2'>{{id2}}</view>
+<view class='btn' bindtap='tap' data-value='0'>{{id0}}</view>
+</view>
+<view class='btn-group' catchtap="pressView">
+<view class='btn' bindtap='tap' data-value='/'>{{idi}}</view>
+<view class='btn' bindtap='tap' data-value='9'>{{id9}}</view>
+<view class='btn' bindtap='tap' data-value='6'>{{id6}}</view>
+<view class='btn' bindtap='tap' data-value='3'>{{id3}}</view>
+<view class='btn' bindtap='tap' data-value='.'>{{ida}}</view>
+</view>
+<view class='btn-group right-one' catchtap="pressView">
+<view class='btn' bindtap='tap' data-value='*'>{{ide}}</view>
+<view class='btn' bindtap='tap' data-value='-'>{{idf}}</view>
+<view class='btn' bindtap='tap' data-value='+'>{{idc}}</view>
+<view class='btn equal' bindtap='tap' data-value='='>{{idb}}</view>
+  </view>
+ </view>
+</view>

@@ -1,0 +1,41 @@
+<!--pages/resume/index.wxml-->
+<view class="container">
+  <image src="" class='h-bac'></image>
+  <view class="header">
+    <view class='h-left h-div1'>
+      <image class='h-img' src=''></image>
+    </view>
+    <view class='h-right h-div2'>
+      <view>姓名：{{user.name}}</view>
+      <view>手机：{{user.phone}}</view>
+      <view>邮箱：{{user.email}}</view>
+    </view>
+  </view>
+
+  <view class='main'>
+    <navigator url='' class='m-to'>
+      <view class='m-view'>
+        <view  class='m-view-text'> 基本情况</view>
+        <image class='m-view-r' src=''></image>
+      </view>
+    </navigator>
+    <navigator url='' class='m-to'>
+      <view class='m-view'>
+        <view  class='m-view-text'>学习经历</view>
+        <image class='m-view-r' src=''></image>
+      </view>
+    </navigator>
+    <navigator url='' class='m-to'>
+      <view class='m-view'>
+        <view  class='m-view-text'>获奖奖励</view>
+        <image class='m-view-r' src=''></image>
+      </view>
+    </navigator>
+    <navigator url='' class='m-to'>
+      <view class='m-view'>
+        <view  class='m-view-text'>个人视频</view>
+        <image class='m-view-r' src=''></image>
+      </view>
+    </navigator>
+  </view>
+</view>
